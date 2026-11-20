@@ -107,3 +107,8 @@ LB_SWAP_FILE_SIZE="512"
 # "enable" makes the build fail if the signed shim/GRUB packages are missing,
 # instead of silently falling back to an unsigned bootloader.
 LB_UEFI_SECURE_BOOT="enable"
+
+LB_SYSTEM="live"
+LB_DEBIAN_INSTALLER="netinst"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="sinambung"
+LB_DEBIAN_INSTALLER_GUI="true"
